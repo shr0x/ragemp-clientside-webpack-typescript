@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+#Rage stuff
+*.dll
+
+*.exe
+
+/bin
+/dotnet
+
+*.xml
+
+
+client.js

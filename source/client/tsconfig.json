@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "baseUrl": "./",
+        "target": "es2015",
+        "module": "commonjs",
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "removeComments": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "/build" //this is for testing only, if you want to build the code use webpack (npm run build)
+    },
+    "files": [
+        "@types/ragemp-c/index.d.ts",
+        "@types/ragemp-c/natives.d.ts",
+        "@types/ragemp-c/enums.d.ts"
+    ],
+    "include": [
+        "**/*"
+    ]
+}
