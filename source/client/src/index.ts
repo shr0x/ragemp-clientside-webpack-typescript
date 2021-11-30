@@ -8,6 +8,10 @@ import "./events/playerReady";
 // My modules
 //import "./modules/example";
 
+
+//CEF work
+import "./modules/cefwork";
+
 // Client initialize!
 const initClientSide = () => {
     setPlayerPos( new mp.Vector3( 123, 123, 123 ) );
